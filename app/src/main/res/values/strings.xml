@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Activity Lifecycle</string>
+    <integer name="action_settings">0</integer>
+
+    <!-- List of Experiments -->
+    <string name="experiment1">onCreate() is called upon launch.</string>
+    <string name="experiment2">Pause the activity by pressing the Home button.</string>
+    <string name="experiment3">Restart the application from the launcher.</string>
+    <string name="experiment4">Rotate the device to destroy and create the activity again.</string>
+
+    <!-- Messages Displayed for the Activity Events -->
+    <string name="create_Message">This activity has been created &#8230; &#128512; onCreate()</string>
+    <string name="start_Message">This activity has been launched &#8230; &#128512; onStart()</string>
+    <string name="resume_Message">This activity is now in the foreground and running &#8230; &#128513; onResume()</string>
+    <string name="pause_Message">Another activity is in front of this activity &#8230; &#128514; onPause()</string>
+    <string name="stop_Message">This activity is no longer visible on the screen &#8230; &#128515; onStop()</string>
+    <string name="restart_Message">This activity is restarting after being stopped &#8230; &#128516; onRestart()</string>
+    <string name="destroy_Message">This activity has been destroyed &#8230; &#128513; onDestroy()</string>
+
+    <!-- menu stuff -->
+    <string name="item">onStart</string>
+</resources>
